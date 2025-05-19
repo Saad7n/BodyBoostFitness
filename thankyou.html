@@ -1,1 +1,88 @@
-<!DOCTYPE Html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You - Body Boost</title>
+  <link rel="stylesheet" href="form.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header, footer {
+      background-color: #002f5f;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .thankyou-bubble {
+      background-color: rgba(0, 31, 63, 0.9);
+      padding: 3rem 4rem;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .thankyou-bubble h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="logo.png" alt="Body Boost Logo" height="40"></div>
+      <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="Macro.html">Macro Calculator</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="thankyou-bubble">
+      <h1>Welcome to Body Boost, Your Fitness Journey Starts Now!</h1>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Body Boost</p>
+  </footer>
+</body>
+</html>
